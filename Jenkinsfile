@@ -13,5 +13,11 @@ pipeline {
                 sh 'python3 app.py'
             }
         }
+        stage('Test Stage') {
+    steps {
+        echo 'This is a test stage'
+    }
+}
+
     }
 }
